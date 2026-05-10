@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/minigames/VectorAdditionAsteroids.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ui/CalculatorPanel.tscn" id="2"]
+[node name="VectorAdditionAsteroids" type="Control"]
+script = ExtResource("1")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+[node name="HBox" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+[node name="Arena" type="Control" parent="HBox"]
+custom_minimum_size = Vector2(800, 700)
+size_flags_horizontal = 3
+[node name="UI" type="VBoxContainer" parent="HBox"]
+size_flags_horizontal = 3
+[node name="CalculatorPanel" parent="HBox/UI" instance=ExtResource("2")]
+[node name="Score" type="Label" parent="HBox/UI"]
+[node name="Timer" type="Label" parent="HBox/UI"]
+[node name="Feedback" type="Label" parent="HBox/UI"]
+autowrap_mode = 3

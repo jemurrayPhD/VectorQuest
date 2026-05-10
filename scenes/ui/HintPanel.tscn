@@ -1,0 +1,4 @@
+[gd_scene format=3]
+[node name="HintPanel" type="PanelContainer"]
+[node name="Hint" type="Label" parent="."]
+text = "Hint"

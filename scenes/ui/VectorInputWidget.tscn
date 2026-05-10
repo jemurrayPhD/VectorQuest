@@ -1,0 +1,9 @@
+[gd_scene format=3]
+[node name="VectorInputWidget" type="VBoxContainer"]
+[node name="ModeButton" type="Button" parent="."]
+text = "Mode: Cartesian"
+[node name="EntryRow" type="HBoxContainer" parent="."]
+[node name="AEntry" type="LineEdit" parent="EntryRow"]
+[node name="BEntry" type="LineEdit" parent="EntryRow"]
+[node name="SubmitButton" type="Button" parent="."]
+text = "Submit"

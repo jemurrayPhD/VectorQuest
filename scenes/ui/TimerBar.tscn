@@ -1,0 +1,4 @@
+[gd_scene format=3]
+[node name="TimerBar" type="ProgressBar"]
+max_value = 100.0
+value = 100.0

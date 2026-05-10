@@ -1,0 +1,452 @@
+[
+  {
+    "id": "vector_components_easy_001",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -5,
+      "y": -8
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_002",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 0,
+      "y": -1
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_003",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -1,
+      "y": -4
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_004",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -5,
+      "y": -6
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_005",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 5,
+      "y": -7
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_006",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -8,
+      "y": -6
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_007",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -2,
+      "y": -1
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_008",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 8,
+      "y": -8
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_009",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -2,
+      "y": 5
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_010",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -1,
+      "y": 6
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_011",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 0,
+      "y": -8
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_012",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -3,
+      "y": 5
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_013",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 2,
+      "y": 0
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_014",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -4,
+      "y": -2
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_015",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 2,
+      "y": -5
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_016",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -6,
+      "y": 4
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_017",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -5,
+      "y": 3
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_018",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 3,
+      "y": 0
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_019",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -7,
+      "y": 6
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_020",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -5,
+      "y": 4
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_021",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -6,
+      "y": 1
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_022",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": 3,
+      "y": -2
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_023",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -6,
+      "y": -7
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_024",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -1,
+      "y": 1
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  },
+  {
+    "id": "vector_components_easy_025",
+    "prompt": "Enter the vector components.",
+    "type": "vector_components",
+    "given_vectors": [],
+    "target_vector": {
+      "x": -6,
+      "y": -1
+    },
+    "answer_mode": "cartesian_or_polar",
+    "tolerance": 0.5,
+    "difficulty": "easy",
+    "tags": [
+      "vectors",
+      "intro",
+      "vector_components"
+    ]
+  }
+]
