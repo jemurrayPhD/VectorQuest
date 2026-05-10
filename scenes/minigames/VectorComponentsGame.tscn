@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/minigames/VectorComponentsGame.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/visualizers/BasisGrid2D.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visualizers/VectorArrow2D.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/ui/CalculatorPanel.tscn" id="4"]
+[node name="VectorComponentsGame" type="Control"]
+script = ExtResource("1")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+[node name="HBox" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+[node name="Grid" parent="HBox" instance=ExtResource("2")]
+size_flags_horizontal = 3
+[node name="VectorArrow2D" parent="HBox/Grid" instance=ExtResource("3")]
+[node name="UI" type="VBoxContainer" parent="HBox"]
+size_flags_horizontal = 3
+[node name="CalculatorPanel" parent="HBox/UI" instance=ExtResource("4")]
+[node name="Feedback" type="Label" parent="HBox/UI"]
+autowrap_mode = 3
+[node name="NextButton" type="Button" parent="HBox/UI"]
+text = "Next Problem"

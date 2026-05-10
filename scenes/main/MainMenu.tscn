@@ -1,0 +1,17 @@
+[gd_scene format=3]
+[node name="MainMenu" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+[node name="VBox" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.25
+anchor_top = 0.2
+anchor_right = 0.75
+anchor_bottom = 0.8
+[node name="Title" type="Label" parent="VBox"]
+text = "VectorQuest"
+horizontal_alignment = 1
+[node name="Instructions" type="Label" parent="VBox"]
+text = "Open GameShell.tscn to access prototype modes."
+autowrap_mode = 3

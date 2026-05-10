@@ -1,0 +1,4 @@
+[gd_scene format=3]
+[node name="ScorePanel" type="PanelContainer"]
+[node name="Score" type="Label" parent="."]
+text = "Score: 0"
