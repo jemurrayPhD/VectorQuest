@@ -1,8 +1,5 @@
 extends Control
 
-const ProblemLoader = preload("res://scripts/core/ProblemLoader.gd")
-const Vector2Math = preload("res://scripts/math/Vector2Math.gd")
-const CoordinateSystems = preload("res://scripts/math/CoordinateSystems.gd")
 
 @onready var grid: Control = $HBox/Grid
 @onready var arrow: Control = $HBox/Grid/VectorArrow2D
@@ -10,7 +7,7 @@ const CoordinateSystems = preload("res://scripts/math/CoordinateSystems.gd")
 @onready var feedback: Label = $HBox/UI/Feedback
 @onready var next_button: Button = $HBox/UI/NextButton
 
-var problems: Array = []
+var problems: Array[Problem] = []
 var index: int = 0
 
 func _ready() -> void:
@@ -23,7 +20,7 @@ func _show_problem() -> void:
 	if problems.is_empty():
 		feedback.text = "No problems loaded."
 		return
-	var p = problems[index]
+	var p: Problem = problems[index]
 	var center := grid.size * 0.5
 	var target_screen := center + Vector2(p.target_vector.x * 24.0, -p.target_vector.y * 24.0)
 	arrow.start_point = center
@@ -34,7 +31,7 @@ func _show_problem() -> void:
 	feedback.text = p.prompt
 
 func _on_vector_submitted(v: Vector2) -> void:
-	var p = problems[index]
+	var p: Problem = problems[index]
 	var correct: bool = Vector2Math.approx_equal_vec2(v, p.target_vector, p.tolerance)
 	var err: Vector2 = Vector2Math.component_error(v, p.target_vector)
 	var polar := CoordinateSystems.cartesian_to_polar(p.target_vector)
