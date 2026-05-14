@@ -1,8 +1,5 @@
 extends Control
 
-const ProblemLoader = preload("res://scripts/core/ProblemLoader.gd")
-const Vector2Math = preload("res://scripts/math/Vector2Math.gd")
-const DifficultyManager = preload("res://scripts/core/DifficultyManager.gd")
 
 @onready var arena: Control = $HBox/Arena
 @onready var calc: Control = $HBox/UI/CalculatorPanel
@@ -10,7 +7,7 @@ const DifficultyManager = preload("res://scripts/core/DifficultyManager.gd")
 @onready var score_label: Label = $HBox/UI/Score
 @onready var timer_label: Label = $HBox/UI/Timer
 
-var problems: Array = []
+var problems: Array[Problem] = []
 var index: int = 0
 var score_manager: ScoreManager
 var submitted_vector: Vector2 = Vector2.ZERO
@@ -33,7 +30,7 @@ func _draw() -> void:
 		return
 	var center := arena.position + (arena.size * 0.5)
 	draw_circle(center, 8.0, Color.DEEP_SKY_BLUE)
-	var target := problems[index].target_vector
+	var target: Vector2 = problems[index].target_vector
 	var target_screen := center + Vector2(target.x * 24.0, -target.y * 24.0)
 	draw_rect(Rect2(target_screen - Vector2(10, 10), Vector2(20, 20)), Color(0.8, 0.5, 0.3))
 	var end := center + Vector2(submitted_vector.x * 24.0, -submitted_vector.y * 24.0)

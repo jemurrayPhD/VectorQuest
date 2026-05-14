@@ -1,9 +1,18 @@
-[gd_scene format=3]
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/VectorInputWidget.gd" id="1"]
+
 [node name="VectorInputWidget" type="VBoxContainer"]
+script = ExtResource("1")
+
 [node name="ModeButton" type="Button" parent="."]
 text = "Mode: Cartesian"
+
 [node name="EntryRow" type="HBoxContainer" parent="."]
+
 [node name="AEntry" type="LineEdit" parent="EntryRow"]
+
 [node name="BEntry" type="LineEdit" parent="EntryRow"]
+
 [node name="SubmitButton" type="Button" parent="."]
 text = "Submit"
